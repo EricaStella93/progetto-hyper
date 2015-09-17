@@ -1,0 +1,72 @@
+#biggest {
+    padding: 1%;
+    width: 100%;
+    height: 300px;
+}
+
+.small{
+    width:100%;
+    height:100px;
+    padding: 1%;
+}
+
+#description {
+    text-align: left;
+    padding: 1%;
+}
+
+h3 {
+    padding-left: 4%;
+}
+
+.separator {
+    text-align: center;
+    border-style: solid none;
+    border-width: 3px;
+    border-color: darkgrey;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#top-img {
+    float:left;
+}
+
+.award {
+    text-align: left;
+}
+
+.link{
+    background: rgba(169, 169, 169, 0.3);
+}
+
+.desc:link {
+    color: black;
+    font-weight: 500;
+}
+
+.desc:visited {
+    color: firebrick;
+}
+
+.desc:hover{
+    text-decoration: none;
+    color: crimson;
+}
+
+.desc:visited {
+    color: coral;
+}
+
+#button {
+    background-color:dimgrey;
+    color: white;
+    margin-left: 10%;
+    border: 2px groove black;
+    
+}
+
+#button{
+    margin: 0 auto;
+    margin-top: 1%;
+}

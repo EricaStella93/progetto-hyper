@@ -1,0 +1,41 @@
+.background {
+    background-size: cover;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.transbox {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.transbox p {
+    text-align: center;
+    color: black;
+    font-family: "Bookman Old Style", serif, fantasy;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.types:hover p{
+    color: crimson;    
+}
+
+#top-products {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#content {
+text-align: left;
+}
+
+@media (max-width : 995px) {
+    
+    .background {
+        height: 190px;
+    }
+}

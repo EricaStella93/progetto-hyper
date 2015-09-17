@@ -1,0 +1,54 @@
+#image-slider {
+    clear: both;
+}
+
+.img-responsive {   
+    margin: 0 auto;
+}
+
+content {   
+    font-family: "Bookman Old Style", serif, fantasy;    
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+}
+
+.breadcrumb {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.breadcrumb li {
+    padding-bottom: 1%;
+    font-weight: 600;
+}
+
+.breadcrumb li > a:link {
+    color: crimson; 
+    text-decoration: none;
+}
+
+.breadcrumb li > a:visited {
+    color: crimson; 
+    text-decoration: none;
+}
+
+.breadcrumb li > a:hover {
+    color: firebrick;
+    text-decoration: none;
+}
+
+.breadcrumb li > a:active {
+    color: lightcoral;
+    text-decoration: none;
+}
+
+
+

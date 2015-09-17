@@ -1,0 +1,61 @@
+.navlink {
+    font-size: 1.2em;
+    font-family: Broadway, serif, fantasy;
+    color: white;
+}
+
+li {
+    padding-top: 1%;
+    text-align: center;
+}
+
+.navbar.navbar-default {
+    background-color: rgba(169,169,169, 0.6);
+    margin-bottom: 0px;
+    align-content: center;
+}
+
+header {
+    margin: 5px;
+}
+
+footer {
+    padding: 1%;
+    background-color: black;
+    font-family: Broadway, Castellar, fantasy;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+footer > p > a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:visited{
+    color: coral;
+    text-decoration: none;
+}
+
+footer > p > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+footer > p {
+    text-align: center;
+
+}
+
+@media (max-width:768px){
+    
+    .navlink {
+        font-size: 15px;
+    }
+}
+
+
+
+
