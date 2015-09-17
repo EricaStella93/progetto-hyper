@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     var data = "<ul class=\"nav navbar-nav\">";
     
-    data += '<li><a href="homepage.html"><p class ="navlink">HOMEPAGE</p></a></li>';
+    data += '<li><a href="index.html"><p class ="navlink">HOMEPAGE</p></a></li>';
     data += '<li><a href="ourcompany.html"><p class ="navlink">OUR COMPANY</p></a></li>';
     data += '<li><a href="#"><p class ="navlink">SETTINGS</p></a></li>';
     data += '<li><a href="producttypes.html"><p class ="navlink">PRODUCTS</p></a></li>';

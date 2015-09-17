@@ -10,7 +10,7 @@ function getContent(){
     $.getJSON("http://pagineperilsito.altervista.org/producttypescontent.php?callback=p")
         .done(function( json ) {
         
-        var dataToAppend = '<ol class="breadcrumb"><li><a href="homepage.html">Home</a></li><li class="active">Products</li></ol><div class="row"><div class="col-xs-12 col-sm-12">';
+        var dataToAppend = '<ol class="breadcrumb"><li><a href="index.html">Home</a></li><li class="active">Products</li></ol><div class="row"><div class="col-xs-12 col-sm-12">';
         
         dataToAppend += '<p id="content">'+json[0].Content+'</p></div></div><div class="row"><div class="col-xs-0 col-sm-3"></div><div class="col-xs-12 col-sm-6"><a href="topproducts.html"><img src="'+json[0].Image+'" class="img-responsive" id="top-products"></a><div class="col-xs-0 col-sm-3"></div></div></div>';
         
