@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Home Sweet Home</name>
+
+    <description>
+        Home sweet home mobile app
+    </description>
+
+    <author href="https://pagineperilsito.altervista.org" email="support@phonegap.com">
+        Erica Stella
+    </author>
+<preference name="orientation" value="portrait" />
+</widget>
